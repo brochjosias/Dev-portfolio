@@ -2,6 +2,7 @@ import { Sora } from "next/font/google"; // Importe a fonte Sora
 //import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import ResponsiveNavBar from "@/components/Home/Navbar/ResponsiveNavBar";
+import Footer from "@/components/Home/Footer/Footer";
 
 // Defina a fonte Sora
 const sora = Sora({
@@ -35,6 +36,7 @@ export default function RootLayout({
       >
         <ResponsiveNavBar />
         {children}
+        <Footer />
       </body>
     </html>
   );
