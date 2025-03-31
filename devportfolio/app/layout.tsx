@@ -3,6 +3,7 @@ import { Sora } from "next/font/google"; // Importe a fonte Sora
 import "./globals.css";
 import ResponsiveNavBar from "@/components/Home/Navbar/ResponsiveNavBar";
 import Footer from "@/components/Home/Footer/Footer";
+import ScrollToTop from "@/components/Helper/ScrollToTop";
 
 // Defina a fonte Sora
 const sora = Sora({
@@ -30,13 +31,14 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="custom-scrollbar">
       <body
         className={`${sora.variable} antialiased`} // Adicione a variável da fonte Sora
       >
         <ResponsiveNavBar />
         {children}
         <Footer />
+        <ScrollToTop />
       </body>
     </html>
   );
