@@ -47,8 +47,8 @@ ${formData.message}
         Let's work together!
       </h1>
       <p className="text-gray-200 mt-3 lg:text-base text-xs md:text-sm">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea beatae quia
-        excepturi corrupti repellendus. Aliquid!
+        If you’re looking for a developer to turn your ideas into reality, get
+        in touch! Let’s create something amazing together.
       </p>
 
       <form onSubmit={handleSubmit} className="mt-8 block w-full">

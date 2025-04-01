@@ -2,14 +2,14 @@ export const BaseInfo = {
   name: "Josias Broch",
   position: "Front-end Web Developer",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro numquam ad, vero consequuntur aperiam cumque voluptatum pariatur veniam? Qui facilis est ipsam odio cum!",
+    "Fascinated by transforming ideas into interactive, intuitive and responsive solutions!",
   profilePic: "/imagens/hero.png",
 };
 
 export const aboutInfo = {
   title: "Crafting Web Application with Passion and Precision",
   description:
-    "At webdev warriors, we’re a dedicated team of designers and developers committed to delivering tailored web solutions. With a blend of creativity and technical expertise, we help businesses elevate their online presence and achieve their goals",
+    "My journey into programming began in 2021, when I wrote my first codes creating small websites in JavaScript, HTML, and CSS for small businesses. This beginning was parallel to my degree in Systems Analysis and Development at the University of Passo Fundo, completed in 2023. Over more than 4 years in the area working as a Front-end Developer, I had the chance to work on several projects, collaborate with global teams, and work for large companies such as: Automasul Energy Solutions and Saicon Weighing Solutions.",
   client: "30+",
   experience: "4+",
   project: "50+",
@@ -123,9 +123,9 @@ export const skillsData = [
   },
   {
     id: 2,
-    title: "CSS",
-    image: "/imagens/css.svg",
-    percent: "97%",
+    title: "Next.js",
+    image: "/imagens/nextjs.svg",
+    percent: "35%",
   },
   {
     id: 3,
@@ -147,33 +147,93 @@ export const skillsData = [
   },
   {
     id: 6,
-    title: "Node JS",
-    image: "/imagens/node.svg",
-    percent: "77%",
+    title: "CSS",
+    image: "/imagens/css.svg",
+    percent: "97%",
   },
   {
     id: 7,
-    title: "MongoDB",
-    image: "/imagens/mongo.svg",
-    percent: "65%",
+    title: "Tailwind",
+    image: "/imagens/tailwind.svg",
+    percent: "35%",
   },
   {
     id: 8,
+    title: "Sass",
+    image: "/imagens/sass.svg",
+    percent: "35%",
+  },
+  {
+    id: 9,
+    title: "Vue",
+    image: "/imagens/vue.svg",
+    percent: "35%",
+  },
+  {
+    id: 10,
+    title: "Nuxt.js",
+    image: "/imagens/nuxt.svg",
+    percent: "35%",
+  },
+  {
+    id: 11,
+    title: "Angular",
+    image: "/imagens/angular.svg",
+    percent: "35%",
+  },
+  {
+    id: 12,
+    title: "Svelte",
+    image: "/imagens/svelte.svg",
+    percent: "35%",
+  },
+  {
+    id: 13,
     title: "Python",
     image: "/imagens/python.svg",
     percent: "55%",
   },
   {
-    id: 9,
+    id: 14,
+    title: "Node JS",
+    image: "/imagens/node.svg",
+    percent: "77%",
+  },
+  {
+    id: 15,
+    title: "Docker",
+    image: "/imagens/docker.svg",
+    percent: "35%",
+  },
+  {
+    id: 16,
+    title: "PostgreSQL",
+    image: "/imagens/postgre.svg",
+    percent: "35%",
+  },
+  {
+    id: 17,
+    title: "MySQL",
+    image: "/imagens/mysql.svg",
+    percent: "35%",
+  },
+  {
+    id: 18,
     title: "Firebase",
     image: "/imagens/firebase.svg",
     percent: "75%",
   },
   {
-    id: 10,
-    title: "Vue",
-    image: "/imagens/vue.svg",
+    id: 19,
+    title: "Graph",
+    image: "/imagens/graph.svg",
     percent: "35%",
+  },
+  {
+    id: 20,
+    title: "MongoDB",
+    image: "/imagens/mongo.svg",
+    percent: "65%",
   },
 ];
 
@@ -240,7 +300,7 @@ export const blogs = [
 ];
 
 export const contactData = {
-  phone: "+88(012345 789)",
-  email: "example@gmail.com",
-  address: "Dhaka , Bangladesh",
+  phone: "54 999807405",
+  email: "josias.broch@gmail.com",
+  address: "Passo Fundo, Brasil",
 };
