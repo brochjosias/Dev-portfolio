@@ -4,6 +4,17 @@ import { FaDownload } from "react-icons/fa";
 import Image from "next/image"; // Importe o componente Image
 
 const Hero = () => {
+  // Função para download dos arquivos
+  const handleDownload = (file: string) => {
+    // Cria um link temporário
+    const link = document.createElement("a");
+    link.href = `/arquivos/${file}`; // Caminho ajustado para a pasta arquivos
+    link.download = file;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <div className="w-full pt-[4vh] md:pt-[12vh] h-screen bg-[#0f0715] overflow-hidden relative">
       <div className="flex justify-center flex-col w-4/5 h-full mx-auto">
@@ -42,12 +53,18 @@ const Hero = () => {
               data-aos-delay="300"
               className="flex flex-wrap gap-4 mt-8"
             >
-              <button className="md:px-8 md:py-2.5 px-6 py-1.5 text-white font-semibold text-sm md:text-lg transition-all duration-200 rounded-lg bg-blue-700 hover:bg-blue-900 flex items-center space-x-2">
+              <button
+                onClick={() => handleDownload("Josias_Broch_Currículo.pdf")}
+                className="md:px-8 md:py-2.5 px-6 py-1.5 text-white font-semibold text-sm md:text-lg transition-all duration-200 rounded-lg bg-blue-700 hover:bg-blue-900 flex items-center space-x-2 cursor-pointer"
+              >
                 <span>Download CV Português</span>
                 <FaDownload />
               </button>
 
-              <button className="md:px-8 md:py-2.5 px-6 py-1.5 text-white font-semibold text-sm md:text-lg transition-all duration-200 rounded-lg bg-blue-700 hover:bg-blue-900 flex items-center space-x-2">
+              <button
+                onClick={() => handleDownload("Josias_Broch_Curriculum.pdf")}
+                className="md:px-8 md:py-2.5 px-6 py-1.5 text-white font-semibold text-sm md:text-lg transition-all duration-200 rounded-lg bg-blue-700 hover:bg-blue-900 flex items-center space-x-2 cursor-pointer"
+              >
                 <span>Download CV English</span>
                 <FaDownload />
               </button>

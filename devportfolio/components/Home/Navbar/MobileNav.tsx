@@ -11,11 +11,17 @@ type Props = {
 const MobileNav = ({ closeNav, showNav }: Props) => {
   const navOpen = showNav ? "translate-x-0" : "translate-x-[-100%]";
 
+  // Função que fecha o menu ao clicar em um link
+  const handleLinkClick = () => {
+    closeNav();
+  };
+
   return (
     <div>
       {/* OverLay */}
       <div
         className={`fixed ${navOpen} transform transition-all duration-500 inset-0 z-[1000] bg-black opacity-70 w-full h-screen`}
+        onClick={closeNav}
       ></div>
 
       {/* Nav Links */}
@@ -41,7 +47,7 @@ const MobileNav = ({ closeNav, showNav }: Props) => {
       >
         {navLinks.map((navlink) => {
           return (
-            <Link key={navlink.id} href={navlink.url}>
+            <Link key={navlink.id} href={navlink.url} onClick={handleLinkClick}>
               <p className="nav__link text-[20px] ml-12 border-b-[1.5px] pb-2 border-white sm:text-[30px]">
                 {navlink.label}
               </p>
