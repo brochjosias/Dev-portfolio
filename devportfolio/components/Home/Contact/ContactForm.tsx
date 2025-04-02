@@ -87,7 +87,7 @@ ${formData.message}
         <div className="mt-4">
           <button
             type="submit"
-            className="px-8 py-3.5 bg-[#7947df] text-white hover:bg-[#5c2fb7] transition-all duration-150 rounded-full"
+            className="px-8 py-3.5 bg-[#7947df] text-white hover:bg-[#5c2fb7] transition-all duration-150 rounded-full cursor-pointer"
           >
             Send Message via WhatsApp
           </button>
