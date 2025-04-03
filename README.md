@@ -28,5 +28,5 @@ Meu portfólio foi projetado para ser moderno, responsivo e intuitivo, destacand
 ## Acesso
 
 ```bash
-https://github.com/brochjosias/loja-commerce.git
+https://josiasbroch-dev.vercel.app/
 ```
