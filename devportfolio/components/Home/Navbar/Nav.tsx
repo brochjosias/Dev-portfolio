@@ -23,8 +23,11 @@ const Nav = ({ openNav }: Props) => {
   }, []);
 
   const handleHireMeClick = () => {
-    // Abre seu perfil do LinkedIn em uma nova aba
-    window.open("https://www.linkedin.com/in/josiasbroch/", "_blank");
+    // Encontra o elemento com o id "contacts" e rola até ele
+    const contactsSection = document.getElementById("contacts");
+    if (contactsSection) {
+      contactsSection.scrollIntoView({ behavior: "smooth" });
+    }
   };
 
   return (

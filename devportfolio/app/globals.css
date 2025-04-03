@@ -10,6 +10,10 @@ html {
   scroll-padding-top: 90px; /* Ajusta todos os scrolls para parar 80px mais abaixo */
 }
 
+#contacts {
+  scroll-margin-top: 90px; /* Prioriza este valor para este elemento específico */
+}
+
 @layer components {
   .nav__link {
     @apply relative text-base font-medium w-fit block text-white;
