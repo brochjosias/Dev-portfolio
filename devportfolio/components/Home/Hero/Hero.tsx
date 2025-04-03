@@ -19,20 +19,36 @@ const Hero = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-12">
           {/* Text Content */}
           <div>
-            <h1 className="text-2xl md:text-3xl lg:text-4xl mb-5 text-gray-300 font-semibold">
+            <h1
+              data-aos="fade-right"
+              data-aos-delay="50"
+              className="text-2xl md:text-3xl lg:text-4xl mb-5 text-gray-300 font-semibold"
+            >
               I am {BaseInfo.name}
             </h1>
 
-            <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600 text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold md:leading-[3rem] lg:leading-[3.5rem] xl:leading-[4rem]">
+            <h1
+              data-aos="fade-right"
+              data-aos-delay="100"
+              className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600 text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold md:leading-[3rem] lg:leading-[3.5rem] xl:leading-[4rem]"
+            >
               {BaseInfo.position}
             </h1>
 
-            <p className="mt-6 text-sm md:text-base text-white text-opacity-60">
+            <p
+              data-aos="fade-right"
+              data-aos-delay="150"
+              className="mt-6 text-sm md:text-base text-white text-opacity-60"
+            >
               {BaseInfo.description}
             </p>
 
             {/* Botões de download */}
-            <div className="flex flex-wrap gap-4 mt-8">
+            <div
+              data-aos="fade-right"
+              data-aos-delay="200"
+              className="flex flex-wrap gap-4 mt-8"
+            >
               <button
                 onClick={() => handleDownload("Josias_Broch_Currículo.pdf")}
                 className="md:px-7 md:py-2.5 px-5 py-1.5 text-sm md:text-base text-white font-semibold transition-all duration-200 rounded-lg bg-blue-700 hover:bg-blue-900 flex items-center space-x-2 cursor-pointer"
@@ -51,7 +67,11 @@ const Hero = () => {
             </div>
 
             {/* Ícones de redes sociais */}
-            <div className="flex gap-6 mt-6">
+            <div
+              data-aos="fade-right"
+              data-aos-delay="250"
+              className="flex gap-6 mt-6"
+            >
               <a
                 href="https://github.com/brochjosias"
                 target="_blank"
@@ -75,7 +95,11 @@ const Hero = () => {
           </div>
 
           {/* Image content */}
-          <div className="mx-auto hidden lg:block rounded-[3rem] border-[3.5px] border-blue-950 overflow-hidden w-[500px] h-[500px] relative">
+          <div
+            data-aos="zoom-in"
+            data-aos-delay="300"
+            className="mx-auto hidden lg:block rounded-[3rem] border-[3.5px] border-blue-950 overflow-hidden w-[500px] h-[500px] relative"
+          >
             <Image
               src={BaseInfo.profilePic}
               alt={BaseInfo.name}
