@@ -74,43 +74,39 @@ export const servicesData = [
 export const projectData = [
   {
     id: 1,
-    image: "/imagens/p1.png",
-    url: "https://agency-opal-eight.vercel.app/",
-  },
-  {
-    id: 2,
+    name: "Burger Restaurant",
     image: "/imagens/p2.png",
     url: "https://burger-pearl.vercel.app/",
   },
   {
-    id: 3,
+    id: 2,
+    name: "Game E-commerce",
     image: "/imagens/p3.png",
     url: "https://game-ecommerce-yt.vercel.app/",
   },
   {
-    id: 4,
+    id: 3,
+    name: "E-Learning Platform",
     image: "/imagens/p4.png",
     url: "https://elearning-yt.vercel.app/",
   },
   {
-    id: 5,
+    id: 4,
+    name: "Investment App",
     image: "/imagens/p5.png",
     url: "https://invest-peach.vercel.app/",
   },
   {
-    id: 6,
+    id: 5,
+    name: "Job Portal",
     image: "/imagens/p6.png",
     url: "https://job-chi-ruby.vercel.app/",
   },
   {
-    id: 7,
+    id: 6,
+    name: "E-commerce Store",
     image: "/imagens/p7.png",
     url: "https://wdw-ecom.vercel.app/",
-  },
-  {
-    id: 8,
-    image: "/imagens/p8.png",
-    url: "https://webhost-ten.vercel.app/",
   },
 ];
 

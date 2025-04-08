@@ -98,15 +98,22 @@ const Hero = () => {
           <div
             data-aos="zoom-in"
             data-aos-delay="300"
-            className="mx-auto hidden lg:block rounded-[3rem] border-[3.5px] border-blue-950 overflow-hidden w-[500px] h-[500px] relative"
+            className="mx-auto hidden lg:block relative -mt-20"
+            style={{ width: "400px", height: "400px" }}
           >
-            <Image
-              src={BaseInfo.profilePic}
-              alt={BaseInfo.name}
-              fill
-              className="object-cover rounded-[2.85rem]"
-              priority
-            />
+            <div className="absolute inset-0 flex items-center justify-center">
+              <Image
+                src={BaseInfo.profilePic}
+                alt={BaseInfo.name}
+                width={420}
+                height={420}
+                className="object-contain rounded-lg"
+                style={{
+                  filter: "drop-shadow(0 0 25px rgba(135, 80, 247, 0.6))",
+                }}
+                priority
+              />
+            </div>
           </div>
         </div>
       </div>
