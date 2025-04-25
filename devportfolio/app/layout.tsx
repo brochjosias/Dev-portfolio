@@ -23,7 +23,7 @@ const geistMono = Geist_Mono({
 });*/
 
 export const metadata = {
-  title: "WebDev Josias",
+  title: "WebDev | Josias Broch",
   description: "WebDev Josias",
 };
 
