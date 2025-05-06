@@ -83,6 +83,7 @@ export const projectData = [
     name: "Burger Restaurant",
     image: "/imagens/p2.png",
     url: "https://burger-pearl.vercel.app/",
+  },
   {
     id: 3,
     name: "Wdw-Shop",
@@ -106,7 +107,6 @@ export const projectData = [
     name: "Game-commerce",
     image: "/imagens/p3.png",
     url: "https://game-ecommerce-yt.vercel.app/",
-  },
   },
 ];
 
