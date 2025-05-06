@@ -74,21 +74,21 @@ export const servicesData = [
 export const projectData = [
   {
     id: 1,
-    name: "Wdw-Shop",
-    image: "/imagens/p7.png",
-    url: "https://www.linkedin.com/posts/josiasbroch_nextjs-typescript-paypal-activity-7323011781285572609-YGuC?utm_source=share&utm_medium=member_desktop&rcm=ACoAADlRdAMBKY74vEDZtFxqewys63zNrB0PecY",
+    name: "E-Learning Platform",
+    image: "/imagens/p4.png",
+    url: "https://elearning-yt.vercel.app/",
   },
   {
     id: 2,
-    name: "Game E-commerce",
+    name: "Game-commerce",
     image: "/imagens/p3.png",
     url: "https://game-ecommerce-yt.vercel.app/",
   },
   {
     id: 3,
-    name: "E-Learning Platform",
-    image: "/imagens/p4.png",
-    url: "https://elearning-yt.vercel.app/",
+    name: "Wdw-Shop",
+    image: "/imagens/p7.png",
+    url: "https://www.linkedin.com/posts/josiasbroch_nextjs-typescript-paypal-activity-7323011781285572609-YGuC?utm_source=share&utm_medium=member_desktop&rcm=ACoAADlRdAMBKY74vEDZtFxqewys63zNrB0PecY",
   },
   {
     id: 4,
