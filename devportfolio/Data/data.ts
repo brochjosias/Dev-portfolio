@@ -80,10 +80,9 @@ export const projectData = [
   },
   {
     id: 2,
-    name: "Game-commerce",
-    image: "/imagens/p3.png",
-    url: "https://game-ecommerce-yt.vercel.app/",
-  },
+    name: "Burger Restaurant",
+    image: "/imagens/p2.png",
+    url: "https://burger-pearl.vercel.app/",
   {
     id: 3,
     name: "Wdw-Shop",
@@ -104,9 +103,10 @@ export const projectData = [
   },
   {
     id: 6,
-    name: "Burger Restaurant",
-    image: "/imagens/p2.png",
-    url: "https://burger-pearl.vercel.app/",
+    name: "Game-commerce",
+    image: "/imagens/p3.png",
+    url: "https://game-ecommerce-yt.vercel.app/",
+  },
   },
 ];
 
